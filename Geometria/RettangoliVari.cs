@@ -30,11 +30,16 @@ namespace RettangoliVari
     
         public int calcolaPerimetro()
         {
-            int perimetroCalcolato = baseRettangolo * altezzaRettangolo;
-            return perimetroCalcolato;
+            int calcolaPerimetro = baseRettangolo * altezzaRettangolo;
+            return calcolaPerimetro;
+            Console.WriteLine(calcolaPerimetro);
         }
 
-        
+        //public string stampaRettangolo()
+        //{
+
+
+        //}
        
     }
 }

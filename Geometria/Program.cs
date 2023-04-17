@@ -23,4 +23,9 @@ Console.WriteLine("ATTRIBUTI DEL RETTANGOLO PICCOLO: ");
 Console.WriteLine("La base del rettangolo piccolo è di: " + rettangoloPiccolo.baseRettangolo + " Cm");
 Console.WriteLine("L'altezza del rettangolo piccolo è di: " + rettangoloPiccolo.altezzaRettangolo + " Cm");
 
+calcolaPerimetro(rettangoloClassico);
 
+
+//stampaRettangolo(rettangoloClassico);
+//stampaRettangolo(rettangoloGrande);
+//stampaRettangolo(rettangoloPiccolo);
