@@ -27,21 +27,24 @@ namespace RettangoliVari
         }
 
         // METODI
-
+        public int calcolaArea()
+        {
+            int risultatoArea = baseRettangolo * altezzaRettangolo;
+            return risultatoArea; 
+        }
         public int calcolaPerimetro()
         {
             int risultatoPerimetro = 2 * (baseRettangolo + altezzaRettangolo);
             return risultatoPerimetro;
         }
 
-        public void stampaRettangolo(string layout)
+        public void stampaRettangolo()
         {
             Console.WriteLine("-- Rettangolo --");
-            Console.WriteLine(baseRettangolo + "Cm");
-            Console.WriteLine(altezzaRettangolo + "Cm");
-            Console.WriteLine(calcolaPerimetro + "Cm");
-
-            return;
+            Console.WriteLine("base: " + baseRettangolo + "Cm");
+            Console.WriteLine("altezza: " + altezzaRettangolo + "Cm");
+            Console.WriteLine("Perimetro: " + calcolaPerimetro + "Cm");
+            Console.WriteLine("Area: " + calcolaArea + "Cm");
         }
        
     }
